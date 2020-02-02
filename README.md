@@ -8,7 +8,7 @@ The code is far from clean and a lot of things in comments are not used but in t
 It modelizes the order book to implement optimal limit orders management. Depth of the limits in the book can be change depending on volum hitting the market. The more traders hitting the market, the more limits should be put deep in the book.
 
 Future improvement:
-- Automatically reduces/increase the depth of the limits depending on how much time since they have been sent (if not filled).
+- Automatically reduce/increase the depth of the limits depending on how much time since they have been sent (if not filled).
 - Take opportunity of the arbitrage between the ETF and the components.
 
 
